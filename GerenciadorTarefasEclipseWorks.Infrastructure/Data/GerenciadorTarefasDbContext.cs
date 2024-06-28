@@ -2,7 +2,7 @@
 using GerenciadorTarefasEclipseWorks.Domain.Entities;
 
 
-namespace GerenciadorTarefasEclipseWorks.Infrastructure
+namespace GerenciadorTarefasEclipseWorks.Infrastructure.Data
 {
     public class GerenciadorTarefasDbContext : DbContext
     {

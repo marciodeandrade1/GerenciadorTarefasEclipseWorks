@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using GerenciadorTarefasEclipseWorks.Domain.Entities;
 using GerenciadorTarefasEclipseWorks.Domain.Interfaces;
+using GerenciadorTarefasEclipseWorks.Infrastructure.Data;
 
 namespace GerenciadorTarefasEclipseWorks.Infrastructure.Repositories
 {

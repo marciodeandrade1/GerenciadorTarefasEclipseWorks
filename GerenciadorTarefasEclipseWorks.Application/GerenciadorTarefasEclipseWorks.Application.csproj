@@ -11,6 +11,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Handlers\" />
+    <Folder Include="Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\GerenciadorTarefasEclipseWorks.Domain\GerenciadorTarefasEclipseWorks.Domain.csproj" />
   </ItemGroup>
 

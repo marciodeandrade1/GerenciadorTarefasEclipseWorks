@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using GerenciadorTarefasEclipseWorks.Domain.Entities;
+﻿using GerenciadorTarefasEclipseWorks.Domain.Entities;
 
 namespace GerenciadorTarefasEclipseWorks.Domain.Interfaces
 {

@@ -2,6 +2,7 @@ using GerenciadorTarefasEclipseWorks.Domain.Interfaces;
 using GerenciadorTarefasEclipseWorks.Infrastructure.Data;
 using GerenciadorTarefasEclipseWorks.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,7 +16,8 @@ builder.Services.AddDbContext<GerenciadorTarefasDbContext>(options =>
 builder.Services.AddScoped<IProjetoRepository, ProjetoRepository>();
 builder.Services.AddScoped<ITarefaRepository, TarefaRepository>();
 
-builder.Services.AddMediatR(typeof(Program).Assembly);
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

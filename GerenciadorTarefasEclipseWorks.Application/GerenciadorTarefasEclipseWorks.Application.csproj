@@ -11,10 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Handlers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\GerenciadorTarefasEclipseWorks.Domain\GerenciadorTarefasEclipseWorks.Domain.csproj" />
   </ItemGroup>
 

@@ -15,7 +15,7 @@ builder.Services.AddDbContext<GerenciadorTarefasDbContext>(options =>
 builder.Services.AddScoped<IProjetoRepository, ProjetoRepository>();
 builder.Services.AddScoped<ITarefaRepository, TarefaRepository>();
 
-//builder.Services.AddMediatR(typeof(Program).Assembly);
+builder.Services.AddMediatR(typeof(Program).Assembly);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
